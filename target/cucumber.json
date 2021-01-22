@@ -1,0 +1,75 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-16T14:03:04.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7193000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.syntax.stepDefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "login with valid credentials",
+        "description": "",
+        "id": "login-test;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 685000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.syntax.stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2783000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login with valid credentials",
+            "match": {
+              "location": "com.syntax.stepDefinitions.loginStepDefinitions.login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "varify welcome message",
+            "match": {
+              "location": "com.syntax.stepDefinitions.loginStepDefinitions.varify_welcome_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "login test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
